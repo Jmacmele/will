@@ -608,6 +608,11 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+
+    .header-top{
+        font-size: 12px;
+    }
     .contact-container {
         flex-direction: column;
         padding: 20px;
