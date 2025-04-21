@@ -362,9 +362,9 @@ footer {
 }
 
     .services-list div {
-        background-color: #444;
+        background-color:rgb(17, 16, 16);
   
-    color: black;
+    color: white;
         padding: 40px;
         font-size: 13px;
         font-weight: 300;
@@ -662,6 +662,22 @@ footer {
     }
 
     .more-stuff-grid {
-        grid-template-columns: minmax(1em, 1fr) minmax(200px, 400px) minmax(1em, 1fr);
-    }
+        display: block;
+        padding: 2em 1em;
+        text-align: center;
+      }
+    
+      .more-stuff-grid img,
+      .more-stuff-grid p {
+        grid-column: auto !important;
+        transform: none !important;
+        opacity: 1 !important;
+        width: 100%;
+        margin-bottom: 1.5em;
+      }
+    
+      .more-stuff-grid img {
+        max-width: 100%;
+        height: auto;
+      }
 }
